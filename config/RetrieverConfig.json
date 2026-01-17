@@ -1,0 +1,17 @@
+{
+  "train_docs_path": "data/train_data/docs.json",
+  "train_questions_path": "data/train_data/questions.jsonl",
+  "dev_docs_path": "data/dev_data/docs.json",
+  "dev_questions_path": "data/dev_data/questions.jsonl",
+  "test_docs_path": "data/test_data/docs.json",
+  "test_questions_path": "data/test_data/questions.jsonl",
+  "prompt_path": "prompting_technique/ZeroShotCoT.txt",
+  "train_output_path": "data/processed/train_data_final.jsonl",
+  "dev_output_path": "data/processed/dev_data_final.jsonl",
+  "test_output_path": "data/processed/test_data_final.jsonl",
+  "query_choice": "target_event",
+  "content_choice": "content",
+  "top_k": 1,
+  "model_name": "sentence-transformers/all-MiniLM-L6-v2",
+  "alpha": 0.5
+}

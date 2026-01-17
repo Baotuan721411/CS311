@@ -1,0 +1,22 @@
+### INSTRUCTION:
+You are an expert analyst in causal reasoning. Your task is to identify the cause(s) or preceding event(s) for the 'Target Event' based strictly on the provided 'Context'.
+
+### CONTEXT:
+{{context}}
+
+### TARGET EVENT:
+{{target}}
+
+### OPTIONS:
+A. {{option_A}}
+B. {{option_B}}
+C. {{option_C}}
+D. {{option_D}}
+
+### GUIDELINES:
+1. Analyze the causal links in the Context.
+2. Select ALL options that correspond to the true cause.
+3. If multiple options are correct, list them separated by commas (e.g., "A, C").
+4. Do NOT explain. Output ONLY the option letters.
+
+### ANSWER:
